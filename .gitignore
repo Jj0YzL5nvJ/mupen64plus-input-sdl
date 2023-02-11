@@ -1,3 +1,5 @@
+/projects/msvc/Win32/
+/projects/msvc/x64/
 /projects/unix/_obj*/
-/projects/unix/mupen64plus-input-sdl*.so
+/projects/unix/mupen64plus-input-sdl*.*
 /build/
