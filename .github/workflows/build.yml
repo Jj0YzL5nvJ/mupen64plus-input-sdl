@@ -86,7 +86,7 @@ jobs:
       - name: Build and related stuff, backup binaries
         run: |
           git clone --depth 1 -b ci-rearr --single-branch https://github.com/Jj0YzL5nvJ/mupen64plus-core.git ../mupen64plus-core
-          ./../mupen64plus-core/.github/workflows/scriptsci_build.sh ${{ matrix.arch }} ${{ matrix.cc }}
+          ./../mupen64plus-core/.github/workflows/scripts/ci_build.sh ${{ matrix.arch }} ${{ matrix.cc }}
       - name: Backup dependencies, etc...
         run: |
           ./../mupen64plus-core/.github/workflows/scripts/ci_backup_mingw_deps.sh ${{ matrix.env }}
